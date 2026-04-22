@@ -1,0 +1,22 @@
+{
+  "name": "hand-skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "python-hand": "python3 -u ./modules/hand_gesture_tracker_single_hand_file.py",
+    "ws-server": "node modules/ws-server-l1.js",
+    "vision": "echo ${PWD}/modules/index-coordinates.html",
+    "hand-landmarker": "wget -q https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task -O .volumes/hand_landmarker.task"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ws": "^8.20.0"
+  },
+  "contributors": [{
+    "name": "Anmol Kumar Ojha",
+    "email": "ojhaanmol@gmail.com"
+  }]
+}
