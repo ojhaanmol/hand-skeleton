@@ -4,6 +4,8 @@ Real-time hand landmark renderer using **MediaPipe**, **WebSockets**, and **HTML
 
 ---
 
+![Hand Skeleton Demo](assets/demo.gif)
+
 ## How It Works
 
 ```
